@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBAC Motors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>EBAC Motors</h1>
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Highlighted</a>
+                    </li>
+                    <li>
+                        <a href="#">Promotions</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel-images">
+        <img src="./Images/slide1.png" alt="Image of Porsche">
+        <img src="./Images/slide2.png" alt="Image of BMW">
+        <img src="./Images/slide3.png" alt="Image of Ford">
+    </div> 
+    <section id="about-story">
+        <div class="container container-flex">
+            <img src="./Images/loja.jpg" alt="Image of story EBAC Motors">
+            <div>
+                <h2>About EBAC Motors</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur aliquam nam alias adipisci, amet mollitia quod culpa sed, odit tempore dolores rerum quas dignissimos iure totam nulla minus provident maiores!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Highlighted</h2>
+            <ul class="container-flex list-vehicles">
+                <li>
+                    <img src="./Images/carro-bmw.png" alt="">
+                    <h3>BMW Series 3</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <strong>US$ 83.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+                <li class="item-central">
+                    <img src="./Images/moto-bmw.png" alt="">
+                    <h3>K1300S</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <strong>US$ 52.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+                <li>
+                    <img src="./Images/fusca.png" alt="">
+                    <h3>Beetle</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <strong>US$ 12.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Promotions</h2>
+            <ul class="container-flex list-vehicles">
+                <li>
+                    <img src="./Images/carro-bmw.png" alt="">
+                    <h3>BMW Series 3</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <del>$ 120.000</del>
+                        <strong>US$ 83.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+                <li class="item-central">
+                    <img src="./Images/moto-bmw.png" alt="">
+                    <h3>K1300S</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <del>$ 80.000</del>
+                        <strong>US$ 52.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+                <li>
+                    <img src="./Images/fusca.png" alt="">
+                    <h3>Beetle</h3>
+                    <p>
+                        Automatic transmission, 4 doors, electric windows and locks
+                    </p>
+                    <div class="price">
+                        <del>$ 30.000</del>
+                        <strong>US$ 12.200</strong>
+                    </div>
+                    <button type="button">I'm interested</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>Contact</h2>
+            <form>
+                <div class="form-field">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-field">
+                    <label for="phone">Phone: </label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-field">
+                    <label for="email">E-mail: </label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-field">
+                    <label for="vehicle-interest">Vehicle of interest: </label>
+                    <input type="text" id="vehicle-interest" name="vehicleInterest">
+                </div>
+                <div class="form-field">
+                    <label for="message">Message: </label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2022 &copy; EBAC Motors - All rights reserved
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="">
+                        <img src="./Icons/facebook.png" alt="Icon facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./Icons/instagram.png" alt="Icon instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./Icons/youtube.png" alt="Icon youtube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
